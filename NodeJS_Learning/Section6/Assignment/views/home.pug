@@ -1,0 +1,13 @@
+extends layouts/main-layout
+
+block styles
+    link(rel="stylesheet" href="/css/product.css")
+    link(rel="stylesheet" href="/css/forms.css")
+
+block content
+    main 
+        form.product-form(action="/" method="POST")
+            div.form-control
+                label(for="name") Name
+                input(type="text" name="name" id="name")
+            button.btn(type="submit") Add User

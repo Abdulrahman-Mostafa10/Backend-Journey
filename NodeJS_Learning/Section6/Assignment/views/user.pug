@@ -1,0 +1,14 @@
+extends layouts/main-layout
+
+block styles
+    link(rel="stylesheet" href="/css/product.css")
+
+block content
+    main
+        if users.length > 0
+            each user in users
+                article.card.product-item
+                    header.card__header
+                        h1.product__title #{user.name}
+        else
+            h1 No Users Found

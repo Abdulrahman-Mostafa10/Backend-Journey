@@ -1,0 +1,20 @@
+{
+  "name": "section5",
+  "version": "1.0.0",
+  "description": "Section Seven Workflow",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Abd El-Rahman Mostafa",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10"
+  }
+}
