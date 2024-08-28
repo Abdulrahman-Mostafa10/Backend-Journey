@@ -1,0 +1,30 @@
+{
+  "name": "section15",
+  "version": "1.0.0",
+  "description": "Section 15 Workflow",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Abd El-Rahman Mostafa",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.10",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.4",
+    "nodemailer": "^6.9.14",
+    "nodemailer-mailgun-transport": "^2.1.5",
+    "section15": "file:"
+  }
+}
