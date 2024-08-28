@@ -1,4 +1,4 @@
-const MONGODB_URI = `mongodb+srv://abdelrahman:bedo@cluster0.fccjy.mongodb.net/shop`;
+const MONGODB_URI = ``;
 
 const path = require(`path`);
 
