@@ -17,6 +17,7 @@
     "body-parser": "^1.20.2",
     "ejs": "^3.1.10",
     "express-handlebars": "3.0",
-    "pug": "^3.0.3"
+    "pug": "^3.0.3",
+    "section5": "file:"
   }
 }
